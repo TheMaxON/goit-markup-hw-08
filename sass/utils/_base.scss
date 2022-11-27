@@ -52,8 +52,16 @@ ul {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 480px;
     padding: 0 15px;
+
+    @media (min-width: 768px) {
+        min-width: 768px;
+    }
+
+    @media (min-width: 1200px) {
+        min-width: 1200px;
+    }
 }
 
 .section-title {
